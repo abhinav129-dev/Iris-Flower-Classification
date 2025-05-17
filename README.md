@@ -1,34 +1,31 @@
 # Iris-Flower-Classification
 
-🔍 Brief Description of the Iris Dataset:
-The Iris dataset contains measurements of 150 iris flowers from three species:
+This project is a classic machine learning task aimed at classifying iris flowers into three species — Setosa, Versicolor, and Virginica — based on their sepal and petal measurements. It demonstrates fundamental ML concepts including supervised learning, data visualization, and model evaluation.
 
-Setosa
+📌 Project Overview
+The objective of this project is to build a classification model that can accurately predict the species of an iris flower using features like sepal length, sepal width, petal length, and petal width. The project is ideal for understanding the end-to-end machine learning workflow.
 
-Versicolor
+🧠 Technologies & Tools Used
+Programming Language: Python
 
-Virginica
+Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
-📊 Features (Columns):
-Typically, the dataset has the following columns:
+Algorithms: Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree
 
-SepalLengthCm – Length of the sepal (in centimeters)
+Dataset: Iris dataset from UCI Machine Learning Repository or sklearn.datasets
 
-SepalWidthCm – Width of the sepal (in centimeters)
+📊 Key Features
+Data Exploration & Visualization: Visualized class distribution, feature relationships using pair plots and heatmaps.
 
-PetalLengthCm – Length of the petal (in centimeters)
+Preprocessing: Checked for missing values, encoded target variables, and normalized the features.
 
-PetalWidthCm – Width of the petal (in centimeters)
+Model Training: Built multiple classifiers to evaluate performance and accuracy.
 
-Species – The class label (Setosa, Versicolor, Virginica)
+Evaluation: Compared models using accuracy score, confusion matrix, and cross-validation.
 
-Each of the three species has 50 samples, and the dataset is balanced.
+✅ Outcomes
+Successfully classified iris species with high accuracy.
 
-💡 Usage:
-It is primarily used for:
+Gained hands-on experience with classification algorithms and model evaluation techniques.
 
-Supervised learning (classification)
-
-Unsupervised learning (clustering)
-
-Data visualization and feature comparison
+Developed visual insights to better understand the structure and patterns in the data.
